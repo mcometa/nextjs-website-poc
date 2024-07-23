@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 export default function Page() {
   const t = useTranslations('HomePage')
@@ -27,7 +27,7 @@ export default function Page() {
                 {t('hero.cta')}
               </Link>
             </div>
-            <img
+            <Image
               src="/placeholder.svg"
               width="550"
               height="550"

@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import Link from 'next/link'
+
 import NavigationLink from './NavigationLink'
 
 export default function Footer() {
