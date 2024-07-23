@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
+import NavigationLink from './NavigationLink'
 
 export default function Footer() {
   const t = useTranslations('Footer')
@@ -10,20 +11,20 @@ export default function Footer() {
         &copy; 2024 Acme Inc. {t('all_rights_reserved')}.
       </p>
       <nav className="flex gap-4 sm:ml-auto sm:gap-6">
-        <Link
-          href="#"
+        <NavigationLink
+          href="/terms"
           className="text-xs underline-offset-4 hover:underline"
           prefetch={false}
         >
           {t('menu.terms_of_service')}
-        </Link>
-        <Link
-          href="#"
+        </NavigationLink>
+        <NavigationLink
+          href="/privacy"
           className="text-xs underline-offset-4 hover:underline"
           prefetch={false}
         >
           {t('menu.privacy_policy')}
-        </Link>
+        </NavigationLink>
       </nav>
     </footer>
   )

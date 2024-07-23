@@ -5,13 +5,12 @@ import { Inter } from 'next/font/google'
 
 import Header from '@/components/common/header'
 import Footer from '@/components/common/footer'
-import '@/app/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Next.js i18n Example',
-  description: 'An example app that showcases next-i18n',
+  description: 'An example app that showcases next-intl',
 }
 
 export default async function LocaleLayout({

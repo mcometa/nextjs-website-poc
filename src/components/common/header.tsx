@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="flex h-14 items-center justify-between px-4 lg:px-6">
       <Link
-        href="#"
+        href="/"
         className="flex items-center justify-center"
         prefetch={false}
       >
@@ -12,7 +12,7 @@ export default function Header() {
       </Link>
       <div className="flex items-center gap-4">
         <Link href="/en">EN</Link>
-        <Link href="/ko">KO</Link>
+        <Link href="/kr">KR</Link>
       </div>
     </header>
   )

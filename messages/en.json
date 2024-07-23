@@ -12,5 +12,11 @@
       "description": "Give your team the toolkit to stop configuring and start innovating. Securely build, deploy, and scale the best web experiences.",
       "title": "The complete platform for building the Web"
     }
+  },
+  "PrivacyPolicyPage": {
+    "sample_text": "This is the privacy policy page."
+  },
+  "TermsPage": {
+    "sample_text": "This is the terms of service page."
   }
 }
