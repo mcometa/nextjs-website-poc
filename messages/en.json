@@ -1,0 +1,16 @@
+{
+  "Footer": {
+    "all_rights_reserved": "All rights reserved.",
+    "menu": {
+      "privacy_policy": "Privacy} Policy",
+      "terms_of_service": "Terns of Service"
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "cta": "Get Started",
+      "description": "Give your team the toolkit to stop configuring and start innovating. Securely build, deploy, and scale the best web experiences.",
+      "title": "The complete platform for building the Web"
+    }
+  }
+}
